@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        tools:layout="@layout/fragment_maps"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="621dp"
+        android:background="@drawable/white_border">
+        <ImageView
+            android:id="@+id/magnify_search"
+            android:layout_width="15sp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_search_24" />
+        <EditText
+            android:id="@+id/search_text_input"
+            android:layout_width="328dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/magnify_search"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+
+            android:hint="Search Country, city, or zipcode"
+            android:imeOptions="actionSearch"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <ToggleButton
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/ic_road"
+        android:id="@+id/nomarlview"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="368sp"
+        android:layout_marginStart="268sp"/>
+
+    <ToggleButton
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/ic_satellite_comeon"
+        android:id="@+id/satelliteview"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300sp"
+        android:layout_marginStart="268sp"/>
+
+</FrameLayout>

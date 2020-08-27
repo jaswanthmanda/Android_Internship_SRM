@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Ready Outing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="api_key">cb87793129677d797031997f9a30f82e</string>
+    <string name="underlined"><u>Click here.</u></string>
+    <string name="welcome_text">Welcome to our app here are few instructions before you expirience our app</string>
+    <string name="consists_of">This app consists of three tabs as shown below</string>
+    <string name="tabs_laa">
+        1.Weather\n2.Traffic\n3.COVID-19 info.\n
+    </string>
+    <string name="weather_heading">1.Weather</string>
+    <string name="weather_description">First tab contains current weather and hourly weather for the next five hours.</string>
+    <string name="traffic_heading">2.Traffic</string>
+    <string name="traffic_desrcription">This tab contains of traffic information all over the world it is having a search bar in that you can search you location and it is having two icons</string>
+    <string name="sattelite_name">Satellite View Icon</string>
+    <string name="satellite_description">This is used to see the satellite view of the image</string>
+    <string name="road_name">Traffic icon</string>
+    <string name="road_description">This is used to enable the traffic view on the roads traffic view contains three sub notations</string>
+    <string name="road_subnotations">\n1.Green line\n2.Orange line\n3.Red line\n</string>
+    <string name="road_subnotationinfo"><b>1.Green line</b>\nGreen line indicates the traffic at that point is very free that is there is no traffic at that line/ point.\n<b>2.Orange line</b>\nThe orange line indicates that at the line/ point of the road there is normal or average traffic\n<b>3.Red line</b>\nThe red line indicates that there is heavy traffic at that point.\n</string>
+    <string name="covid_info_des">\nThis tab contains covid 19 cases information according your location that will be updated and uptodate before google from district, state, and country</string>
+    <string name="final_one">\n\n\nEnjoy using our app for free...\n\n\n</string>
+
+    <string name="main_heading"><u>User Instrutions</u></string>
+    <string name="user_inss">User Guide</string>
+
+    <string name="for_activity_2">Made with</string>
+    <string name="for_activity_3">from</string>
+    <string name="main_line">When you are ready for going out please click the button appeared as below when you start the application</string>
+    <string name="devoloper_info"><b>Devolped by:</b>\n\nJaswanth M\njashustudiosspd@gmail.com\n\n</string>
+
+</resources>
